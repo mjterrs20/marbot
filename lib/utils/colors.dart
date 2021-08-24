@@ -5,6 +5,6 @@ class TemaApp {
   static Color greenColorDark      = Color(0xFF9DBB9A);
   static Color greenColorDeepDark  = Color(0xFF588255);
   static Color whiteColor          = Color(0xFFF5FCED);
-  static Color gradientLeftColor   = Color(0xFFDEFFB5);
-  static Color gradientRightColor  = Color(0xFFF5FCED);
+  static Color gradientLeftColor   = Color(0xFFB4DA86);
+  static Color gradientRightColor  = Color(0xFF62BD9D);
 }
