@@ -97,7 +97,7 @@ class _HomePage extends State<HomePage> {
           ],
           tileMode: TileMode.clamp,
         ),
-        title: Text("Chatbot"),
+        title: Text("Marbot"),
         centerTitle: true,
         elevation: 0.0,
       ),
