@@ -77,7 +77,7 @@ class _HomePage extends State<HomePage> {
     _textController.clear();
     ChatMessage message = ChatMessage(
       text: text,
-      name: "Me",
+      name: "User",
       type: true,
     );
     setState(() {
@@ -159,7 +159,7 @@ class ChatMessage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: <Widget>[
-            Text("Me"),
+            Text("User", style: TextStyle(fontWeight: FontWeight.bold)),
             Container(
               margin: const EdgeInsets.only(top: 5.0),
               child: Text(text),
@@ -171,7 +171,7 @@ class ChatMessage extends StatelessWidget {
         margin: const EdgeInsets.only(left: 16.0),
         child: CircleAvatar(
           child: Text(
-            this.name[0],
+            "U",
             style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
           ),
           backgroundColor: TemaApp.greenColorDark,
