@@ -39,7 +39,11 @@ class _HomePage extends State<HomePage> {
               margin: EdgeInsets.symmetric(horizontal: 4.0),
               child: IconButton(
                   icon: Icon(Icons.send),
-                  onPressed: () => _handleSubmitted(_textController.text)),
+                  onPressed: () {
+                    if (_textController.text != '' && _textController.text != null){
+                      _handleSubmitted(_textController.text);
+                    }
+                  }),
             ),
           ],
         ),
@@ -63,8 +67,7 @@ class _HomePage extends State<HomePage> {
       setState(() {
         chaty = value;
         ChatMessage message = ChatMessage(
-          text: chaty.ans ??
-              "maaf",
+          text: chaty.ans ?? "maaf",
           name: "Marbot",
           type: false,
         );

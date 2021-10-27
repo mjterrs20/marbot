@@ -15,6 +15,8 @@ dependencies:
   http: "^0.11.3+16"
   gradient_app_bar:
   animated_text_kit: 
+  page_view_indicator: ^2.0.4
+  transformer_page_view:
 
 dev_dependencies:
   flutter_test:
@@ -27,6 +29,9 @@ flutter:
 
   assets:
    - assets/images/walppaper.jpeg
+   - assets/images/marbot.png
+   - assets/images/haji.png
+   - assets/images/algoritma.png
 
   fonts:
     - family: Lateef
