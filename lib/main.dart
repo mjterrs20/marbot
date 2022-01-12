@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:marbot/pages/splashscreen.dart';
-import 'package:marbot/pages/homepage.dart';
+import 'package:marbot/pages/chatbot.dart';
 import 'package:marbot/pages/intro.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Marbot',
       home: SplashScreen(),
       routes: <String, WidgetBuilder>{
-        '/homepage': (BuildContext context) => HomePage(),
+        '/chatbot': (BuildContext context) => ChatbotPage(),
         '/intro': (BuildContext context) => IntroPage(),
       },
       theme: ThemeData(

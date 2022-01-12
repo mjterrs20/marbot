@@ -5,12 +5,12 @@ import 'package:gradient_app_bar/gradient_app_bar.dart';
 import 'package:marbot/models/post_result.dart';
 import 'package:http/http.dart' as http;
 
-class HomePage extends StatefulWidget {
+class ChatbotPage extends StatefulWidget {
   @override
-  _HomePage createState() => new _HomePage();
+  _ChatbotPage createState() => new _ChatbotPage();
 }
 
-class _HomePage extends State<HomePage> {
+class _ChatbotPage extends State<ChatbotPage> {
   void initState() {
     super.initState();
   }

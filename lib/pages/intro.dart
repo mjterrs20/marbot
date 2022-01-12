@@ -92,7 +92,7 @@ class _IntroPageState extends State<IntroPage> {
               borderRadius: BorderRadius.circular(10.0),
             ),
             onPressed: () {
-              Navigator.of(context).pushReplacementNamed('/homepage');
+              Navigator.of(context).pushReplacementNamed('/chatbot');
             },
             color: Theme.of(context).primaryColor,
             padding: EdgeInsets.all(10.0),
